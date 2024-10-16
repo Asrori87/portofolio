@@ -1,4 +1,5 @@
 import { projects } from "../constants";
+import arrowRight from "../assets/arrow-right.svg";
 
 const Projects = () => {
   return (
@@ -12,9 +13,11 @@ const Projects = () => {
             <div key={project.label}>
               <a
                 href={project.link}
-                className="text-[15px] font-bold mb-4 inline-block"
+                target="_blank"
+                className="text-[15px] font-bold mb-4 inline-flex gap-2 hover:gap-4 transition-all ease-in"
               >
                 {project.label}
+                <img src={arrowRight} alt="arrow right" />
               </a>
               <p className="text-[15px] mb-6 text-slate-700">
                 {project.description}
