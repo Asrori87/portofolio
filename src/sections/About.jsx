@@ -2,7 +2,7 @@ import { skills } from "../constants";
 
 const About = () => {
   return (
-    <section className="min-h-screen px-24">
+    <section className="px-24">
       <div className="flex gap-16 items-start py-20">
         <h2 className="w-2/6 text-end uppercase font-bold text-sky-600 tracking-widest">
           Latar Belakang
