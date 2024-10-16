@@ -1,4 +1,4 @@
-import { skills } from "../constants";
+import { experience, skills } from "../constants";
 
 const About = () => {
   return (
@@ -41,6 +41,25 @@ const About = () => {
                   {item}
                 </p>
               ))}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="flex gap-16 py-20">
+        <h2 className="w-2/6 text-end uppercase font-bold text-sky-600 tracking-widest">
+          Experience
+        </h2>
+        <div className="flex flex-1 flex-col-reverse">
+          {experience.map((item) => (
+            <div key={item.label} className="flex justify-between mb-6">
+              <div className="leading-[26px]">
+                <p className="text-[15px] font-bold">{item.label}</p>
+                <p className="text-[15px] font-thin">{item.desc}</p>
+              </div>
+              <p className="font-mono text-xs font-thin text-slate-700">
+                {item.arround}
+              </p>
             </div>
           ))}
         </div>

@@ -42,6 +42,13 @@ export const socialLinks = [
   },
 ];
 
-// const experience = [{}];
+export const experience = [
+  {
+    label: "Universitas Muria Kudus",
+    desc: "Mahasiswa",
+    arround: "September 2022 - Sekarang",
+  },
+];
+
 // const featuredProjects = [{}];
 // const otherProjects = [{}];
