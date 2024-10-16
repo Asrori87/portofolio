@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="relative min-h-full">
+    <div className="relative min-h-screen mt-24">
       <p className="text-4xl mb-10 text-slate-700">Hai! </p>
       <h1 className="xl:w-[700px] text-4xl leading-relaxed mb-16 text-slate-700">
         ✨ Saya
