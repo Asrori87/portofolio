@@ -8,7 +8,7 @@ const Projects = () => {
         <h2 className="w-2/6 text-end uppercase font-bold text-sky-600 tracking-widest">
           Projects
         </h2>
-        <div className="flex flex-1 justify-between gap-20">
+        <div className="flex flex-1 flex-col justify-between gap-16">
           {projects.map((project) => (
             <div key={project.label}>
               <a
