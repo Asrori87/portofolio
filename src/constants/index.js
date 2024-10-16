@@ -19,6 +19,7 @@ export const projects = [
     description:
       "Shopping cart adalah fitur di e-commerce yang memungkinkan pengguna menambah, menghapus, atau mengubah produk sebelum checkout. Fitur ini memudahkan pengguna meninjau pesanan, melihat total harga, dan melanjutkan ke pembayaran dengan praktis.",
     tags: ["Typescript", "React", "TailwindCSS"],
+    link: "https://github.com/Asrori87/shopping-cart",
   },
 ];
 

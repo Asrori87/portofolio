@@ -5,7 +5,7 @@ const Footer = () => {
     <section className="py-16 flex items-end">
       <p className="text-[15px] font-bold">
         Developed by <br />
-        Brittany Chiang 2018{" "}
+        Fauzan Asrori 2024{" "}
       </p>
       <div className="flex flex-1 justify-end gap-12">
         {socialLinks.map((link) => (

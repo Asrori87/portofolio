@@ -10,7 +10,12 @@ const Projects = () => {
         <div className="flex flex-1 justify-between gap-20">
           {projects.map((project) => (
             <div key={project.label}>
-              <p className="text-[15px] font-bold mb-4">{project.label}</p>
+              <a
+                href={project.link}
+                className="text-[15px] font-bold mb-4 inline-block"
+              >
+                {project.label}
+              </a>
               <p className="text-[15px] mb-6 text-slate-700">
                 {project.description}
               </p>
